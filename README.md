@@ -3,8 +3,8 @@
 ส่งการบ้าน USE CASE Diagram
 
 ภาพที่ 1 ดูทีวีและทานอาหาร
+Code
 ```
-
 @startuml
 :Patimakorn: --> (Watch Television)
 :Patimakorn: -> (Eat Food)
@@ -17,6 +17,15 @@
 
 
 ภาพที่ 2 การพิมพ์เอกสาร
+Code
+```
+@startuml
+:Patimakorn: -left-> (Upload File Data) 
+:Patimakorn: -right-> (Search Data From Internet) 
+:Patimakorn: -up-> (Print Data)
+:Patimakorn: -down-> (Copy Data for Edit in word)
+@enduml
+```
 ![]
 (http://www.plantuml.com/plantuml/img/JSuz2eD0443XFgUOCXPUm2882OA582GvmE2Ekh3EoEmi8RVt9q6itrUyCXggfIbSYXH92yW3zPRVuFear6w41nf2fJ91pKRAP1aSLlqmxlWky_T7NmADxrIYz6UPveszso3eeFA1TfqTtSc7Dz6gP_ktajYjPmi0)
 
