@@ -34,7 +34,31 @@ Code
 (http://www.plantuml.com/plantuml/img/JSuz2eD0443XFgUOCXPUm2882OA582GvmE2Ekh3EoEmi8RVt9q6itrUyCXggfIbSYXH92yW3zPRVuFear6w41nf2fJ91pKRAP1aSLlqmxlWky_T7NmADxrIYz6UPveszso3eeFA1TfqTtSc7Dz6gP_ktajYjPmi0)
 
 
-ภาพที่ 3 สั่งอาหาร
+ภาพที่ 3 ร้านกาแฟ
+```
+Code
+```
+```
+@startuml
+left to right direction
+skinparam packageStyle rect
+actor Cashier
+actor Customer
+actor Barista
+rectangle Cafe {
+  Customer --> (Order Coffee)
+  Cashier --> (Order Coffee)
+  Cashier --> (Tell Order Coffee)
+  Barista --> (Tell Order Coffee)
+  Barista --> (Make Coffee)
+  Barista --> (Give Coffee to Cashier)
+  Cashier --> (Give Coffee to Cashier)
+  Cashier --> (Pay For Coffee)
+  Customer --> (Pay For Coffee)
+  
+}
+@enduml
+```
 ![]
 (http://www.plantuml.com/plantuml/img/NP3D2i8m48JlUOevwg4-W8WK2jv4qITOqcqR-XD9Lg68x-wsjg8zpZUpao5f50foRnlJS24GZ-3AIf2xm5QSxqoiNNUZG2rkP6ig-IfzmnXiGrPyWBr7yIs7IMOKAwTgI51NQZQZWe6dcHmaoHwhAuS7u-1zlZPPnOLIh4uXLt-4sEB2rcbcX7D6BuzKBmuLdYdAJF6TzF5-MzNKRAzg9ZjzUDwClo9i5ZkNnVz5Yy7cPLBkSltRDm00)
 
