@@ -1,7 +1,7 @@
 # OOAD-WEEK08
 
-## Use Case Diagram (ภาษาไทย)
-* บรรยายเรื่อง UML โดย อ.ปานใจ  
+ส่งการบ้าน USE CASE Diagram
+(http://www.plantuml.com/plantuml/img/SoWkIImgAStDuR8AI2p9p4tCpY_AirBGrRLJq0XFB4dEK0X9pKajoopEpC_JH5C3LEAQMABWbf-Veidba9gN0ZG60000)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/0eq2FGEQul8/0.jpg)](http://www.youtube.com/watch?v=0eq2FGEQul8 "บรรยายเรื่อง UML โดย อ.ปานใจ  " target="_blank") 
 
