@@ -3,7 +3,9 @@
 ส่งการบ้าน USE CASE Diagram
 
 ภาพที่ 1 ดูทีวีและทานอาหาร
+```
 Code
+```
 ```
 @startuml
 :Patimakorn: --> (Watch Television)
@@ -17,7 +19,9 @@ Code
 
 
 ภาพที่ 2 การพิมพ์เอกสาร
+```
 Code
+```
 ```
 @startuml
 :Patimakorn: -left-> (Upload File Data) 
